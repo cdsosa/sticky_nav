@@ -1,0 +1,66 @@
+/* Fixed Nav Side (Product Pages) */
+
+.pages_wrap {
+  position: relative;
+}
+
+ul#main-menu {
+  margin: 0;
+}
+
+#fxd-nav.stickyhead #navbar {
+  position: fixed;
+  top: 0;
+  margin: 0;
+}
+
+#fxd-nav.stickyhead2 #navbar {
+  position: absolute;
+}
+
+#fxd-nav.stickyhead #navbar-prd {
+  position: fixed;
+  top: 0;
+  margin: 0;
+}
+
+#fxd-nav.stickyhead2 #navbar-prd {
+  position: absolute;
+}
+
+#fxd-nav {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+}
+
+ul#main-menu {
+  cursor: pointer;
+  font-family: "Open Sans";
+  font-weight: bold;
+  list-style: outside none none;
+}
+
+ul#main-menu > ul {
+  list-style: none;
+  opacity: 0;
+}
+
+ul#main-menu li {
+  background: #223e7c none repeat scroll 0 0;
+  border-bottom: 1px solid #fff;
+  text-align: center;
+}
+
+ul#main-menu li:hover {
+  background: #da272f;
+}
+
+ul#main-menu li a {
+  display: block;
+  /* clickable full button */
+  padding: 15px 25px 15px 25px;
+  /* clickable full button */
+  text-decoration: none;
+  color: #fff;
+}
